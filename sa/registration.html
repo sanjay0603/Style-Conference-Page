@@ -1,0 +1,178 @@
+﻿<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="Main Files/bootstrap.min.css">
+<title>Imp Web Page</title>
+<link rel="icon" href="sanjay.jpg" type="image/x-icon">
+</head>
+<style>
+body {
+background: #293f50;
+}
+h1:hover{
+color: #000;
+}
+h1 {
+width: 139px;
+border-top: 4px solid #648880;
+font-size: 48px;
+font-weight: 100;
+letter-spacing: .5px;
+line-height: 44px;
+padding: 40px 0 22px 0;
+color: white;
+}
+h2 {
+font-size: 23px;
+margin-top: 55px;
+color:#648880;
+}
+
+
+.mm {
+background: white;
+}
+.gi{
+font-size: 30px;
+}
+.gh { opacity: 0.5;
+}
+.kj {opacity: 0.5;
+}
+.vh {
+padding-left: 71px;
+color:white;
+}
+
+.sf {
+padding:0px;
+list-style-type: none;
+color: white;
+}
+.sf li{float:left;margin-right:18px;}
+.sf li:hover {
+color:#648
+</style>
+<body>
+<script>
+function validate(){
+var name=document.f1.n1.value;
+var passwordlength=document.f1.password.value.length;
+var status=false;
+if(name==""){
+document.getElementById("namelocation").innerHTML=
+"";
+status=false;
+}else{
+document.getElementById("namelocation").innerHTML="";
+status=true;
+}
+
+if(passwordlength<6){
+document.getElementById("passwordlocation").innerHTML=
+" Password must be greater than 6";
+status=false;
+}else{
+document.getElementById("passwordlocation").innerHTML=" ";
+alert("submited");
+}
+
+return status;
+
+}
+</script>
+<div class="container-fluid">
+<div class="container">
+<div class="row">
+<div class="col-md-4 offset-md-2 riti ">
+<h1>STYLE <br>CONFERENCE</h1>
+</div>
+<div class="col-md-6 gg">
+<h2>August 24–26th — Chicago, IL</h2>
+<br/>
+<ul class="sf">
+<li>HOME</li>
+<li>SPEAKERS</li>
+<li>SCHEDULE</li>
+<li>VENUE</li>
+
+<li>REGISTER</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<br/>
+
+<div class="container-fluid mm">
+<div class="container">
+<div class="row">
+<div class="col-md-6 kj">
+<br/><br/>
+<h3>Purchase a Conference Pass</h3>
+<h5>$99 PER PASS</h5>
+<p>Purchase your Styles Conference pass using the form to the right.Multiple passes may be purchased within the same order, so feel free to bring a friend or two along. Once your order is finished we’ll follow up and provide a receipt for your purchase. See you soon!</p>
+<p class="gi">Why Attend?</p>
+<ul type="square">
+<li>Over twenty world-class speakers</li>
+<li>One full day of workshops and two full days of presentations</li>
+<li>Hosted at The Chicago Theatre, a historical landmark</li>
+<li>August in Chicago is simply amazing</li>
+</ul>
+</div>
+<div class="col-md-6 gh">
+<br/><br/>
+<form name="f1" onsubmit="return validate()">
+<i class="fa fa-user"aria-hidden="true"></i>&nbsp;<b>Name:</b><br/><input type="text" name="n1" class="form-control" placeholder="Enter your Name"/>
+<span id="namelocation" style="color:red;"></span><br>
+<form name="s1" onsubmit="return validate()">
+<i class="fa fa-envelope" aria-hidden="true" ></i>&nbsp; <b>Email:</b><br><input type="text" class="form-control" name="n1" placeholder="Enter your email id"/> <br/>
+<i class="fa fa-unlock-alt"aria-hidden="true"></i>&nbsp;<b>Password:</b><br><input type="password" class="form-control" name="password" placeholder="Enter your Password"/>
+<span id="passwordlocation" style="color:#ccc;"></span><br>
+<b> No of Passes:-</b><br/>
+<select class="form-control">
+<option>None</option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+</select>
+<br/>
+<b> Comments:-</b><br/>
+<textarea class="form-control"></textarea>
+<br>
+<input type="submit" class="btn btn-primary form-control" value="Register"/>
+
+</form>
+</form>
+</div>
+</div>
+</div>
+</div>
+<br/><br/>
+<div class="container-fluid ">
+<div class="container">
+<div class="row">
+<div class="col-md-6 ">
+<p class="vh">@code</p>
+</div>
+<div class="col-md-6 jk">
+<ul class="sf">
+<li>HOME</li>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<li>SPEAKERS</li>
+&nbsp;&nbsp;&nbsp;
+<li>SCHEDULE</li>
+&nbsp;&nbsp;&nbsp;
+<li>VENUE</li>
+&nbsp;&nbsp;&nbsp;
+<li>REGISTER</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

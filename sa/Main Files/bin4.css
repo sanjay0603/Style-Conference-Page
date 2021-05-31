@@ -1,0 +1,176 @@
+ 
+      body {
+      background: #293f50;
+      }
+      .gh {
+      padding: 66px 0 44px 0;
+      background: #F5F5F5;
+      }
+      h1 {
+      border-top: 5px solid #648880;
+      font-size: 48px;
+      font-weight: 100;
+      letter-spacing: .5px;
+      line-height: 44px;
+      padding: 40px 0 22px 0;
+      color: white;
+      width: 286px;
+      }
+      h2 {
+      font-size: 23px;
+      margin-left: 54px;
+      margin-top: 55px;   
+      color:#648880;
+      }
+      .sf {
+      display: flex;
+      list-style-type: none;
+      color: white;
+      }
+      .sf li:hover {
+      color:#648880; 
+      }
+      h3 {
+      text-align: center;
+      color:#648880;
+      }
+      rr {
+      text-align: center;
+      }
+      .lm{
+      font-weight: 100;
+      letter-spacing: .5px;
+      text-align: center;
+      font-size:22px;
+      color: white;
+      }
+      .yu { 
+      border-radius: 10px;
+      padding: 24px;
+      text-align: center;
+      margin-left: 453px;
+      }
+      .yu:hover{
+      opacity: 0.6;
+      }
+      .fg{
+      color: black;
+      }
+      .lj{ 
+      padding-right: 249px;
+      padding-left: 119px;
+      display: flex;
+      margin: 0 auto;
+      width: 960px;
+      } 
+      .pp {
+      padding-right: 22px;
+      }
+      
+     
+      .sanjay {
+      padding-top: 401px;
+      color: white;
+      font-size: 26px;
+      text-align: center; 
+      }
+      h1:hover{
+      color:#648880; 
+      }
+   
+.sd {
+                    
+                    font-size: 20px;
+                  
+                     background-color:white;
+                     text-align: center;
+                    background: linear-gradient(to var(--direction, left),transparent, var(--yellow), transparent);
+                    
+                
+        }
+.oi {
+    
+    /*background-color:#648880;*/}
+.ash {
+            color:#f3f3f3;
+            font-size: 40px;
+            border-bottom: 2px solid red;
+}
+.qwe {
+        color:#f3f3f3;
+        font-size: 19px;
+        text-align: justify;
+}
+.yt {
+        color:#f3f3f3;
+}
+.rt
+{
+        background-color:white;
+}
+.po{
+        font-size: 20px;
+}
+.ui{
+        font-size: 31px;
+        color:#f3f3f3;
+        border-bottom: 2px  solid red;
+    
+}
+.rty {
+            background-color: black;
+}
+.al img {
+        border-radius: 100%;
+        
+}
+.xd i {
+            font-size: 30px;
+            color: #f3f3f3;
+}
+.fish{
+        font-family: cursive;
+    font-size: 20px;
+    color: #f3f3f3;
+        
+}
+.jid {
+        font-family: cursive;
+        color: #f3f3f3;
+}
+.jhg  i {
+        border-radius: 100%;
+        background: red;
+        color: #f3f3f3;
+        font-size: 30px;
+}
+.ani i {
+             font-size: 60px;
+                color:#f3f3f3;
+}
+.maindv {
+                    background-color: white;
+                    background-image: url("C:\Users\MICK\Desktop\Practice Training\Training\Bootstrap Files\New Project\Main Files\su.jpg");
+                    min-height: 300px;
+                    box-shadow: 1px 2px 10px white;
+                    animation : slider 9s infinite linear;
+        }
+        
+        @keyframes slider
+ {       
+                
+     0% {
+            background-image: url("C:\Users\MICK\Desktop\Practice Training\Training\Bootstrap Files\New Project\Main Files\su.jpg");
+            
+     }
+        
+     35% 
+     {
+        background-image: url("C:\Users\MICK\Desktop\Practice Training\Training\Bootstrap Files\New Project\Main Files\confrence2.jpg"); 
+     }
+         
+         
+}
+
+        
+        
